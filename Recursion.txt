@@ -1,0 +1,15 @@
+import java.io.*;
+import java.util.*;
+public class Main {
+    static int rec(int n) {
+        if(n<=0) return 0;
+        if(n==1) return 1;
+        return rec(n-1) + rec(n-2);
+    }
+	public static void main (String[] args) {
+		Scanner in = new Scanner(System.in);
+		int n = 5;
+		int res = rec(n);
+		System.out.println(res);
+	}
+}
