@@ -1,0 +1,15 @@
+/Abstraction/nbproject/private/
+/Abstraction/build/
+
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+/Inheritance/nbproject/private/
+/MethodOverLoading/nbproject/private/
+/MethodOverriding/nbproject/private/
+/Encapsulation/nbproject/private/

@@ -1,0 +1,12 @@
+import java.io.*;
+import java.util.*;
+class Main {
+ 
+	public static void main (String[] args) {
+		Scanner in = new Scanner(System.in);
+		int n = 5;
+		int m = (1<<2);
+		int res = (n&m);
+		System.out.println(res);
+	}
+}
